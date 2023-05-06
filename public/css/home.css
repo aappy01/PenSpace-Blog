@@ -258,6 +258,15 @@ footer{
   .link{
     display: none;
   }
+  .input-wrap{
+    width: fit-content;
+  }
+  .input-box{
+    width: 150px;
+  }
+  .input-wrap button{
+    padding: 0 15px;
+  }
   .container{
     padding-top: 40px;
   }
@@ -294,6 +303,7 @@ footer{
   }
   .headingSect p{
     max-width: 100%;
+    margin-bottom: 25px;
   }
   .headingSect h1{
     font-size: 35px;
@@ -309,11 +319,10 @@ footer{
   .articles{
     display: block;
     width: 100%;
-    padding-top: 20px;
   }
   .article-card{
     flex-basis: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
   }
   
   .article-card img{

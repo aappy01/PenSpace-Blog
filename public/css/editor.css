@@ -66,7 +66,7 @@ textarea::-webkit-scrollbar-thumb{
   height: 500px;
   font-size: 20px;
   margin-top: 20px;
-  line-height: 30px;
+  /* line-height: 30px; */
   font-weight: 500;
   padding-bottom: 100px;
   white-space: pre-wrap;
@@ -107,10 +107,5 @@ textarea::-webkit-scrollbar-thumb{
   body{
     max-width: 100%;
   }
-  .blog{
-    width: fit-content;
-    min-width: 90%;
-  }
-
 
 }
